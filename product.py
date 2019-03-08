@@ -16,7 +16,7 @@ class Product:
     def del_product(self, product_id):
         found = False
         for idx, product in enumerate(self.products):
-            if product["Product_ID"] == product_id:
+            if product["Product_id"] == product_id:
                 index = idx
                 found = True
                 del self.products[idx]
