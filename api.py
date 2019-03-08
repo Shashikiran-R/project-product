@@ -23,3 +23,12 @@ if __name__ == "__main__":
     app = make_app()
     app.listen(8888)
     tornado.ioloop.IOLoop.current().start()
+    
+    
+    
+    
+#http://localhost:8888/v1    (to check whether my api is working)
+#http://localhost:8888/v1/addproduct?product_id="1102"&product_name="xyz"  (adding a new product)
+#http://localhost:8888/v1/addproduct?product_id="1101"&product_name="abc"
+#http://localhost:8888/v1/getproducts  (displays all the products)
+#http://localhost:8888/v1/delproduct?product_id="1101"  (deletes the product)
